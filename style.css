@@ -22,18 +22,21 @@ h1, h2, h3{
 }
 
 #contact{
+    margin-left: -20px;
     list-style: none;
 }
 
 #contact i{
+    
     width: 30px;
     color: grey;
 }
 
+
 #container{
     grid-template-columns: 30% auto;
     display: grid;
-    grid-column-gap: 20px;
+    grid-column-gap: 40px;
 }
 
 #sidebar, #content{
@@ -51,4 +54,6 @@ h1, h2, h3{
     border: 1px solid rgb(155, 154, 154);
     border-radius: 10px;
     padding: 20px;
+    
+   
 }
